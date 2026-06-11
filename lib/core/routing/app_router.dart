@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 import '../../features/home/screens/main_scaffold.dart';
 import '../../features/auth/screens/login_screen.dart';
+import '../../features/checkout/screens/checkout_flow_screen.dart';
 
 final appRouter = GoRouter(
   initialLocation: '/login',
@@ -12,6 +13,10 @@ final appRouter = GoRouter(
     GoRoute(
       path: '/',
       builder: (context, state) => const MainScaffold(),
+    ),
+    GoRoute(
+      path: '/checkout',
+      builder: (context, state) => const CheckoutFlowScreen(),
     ),
   ],
 );
