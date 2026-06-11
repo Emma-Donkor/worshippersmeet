@@ -1,6 +1,6 @@
 {
-    "name": "worshippersmeet",
-    "short_name": "worshippersmeet",
+    "name": "WorshippersMeet",
+    "short_name": "WorshippersMeet",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

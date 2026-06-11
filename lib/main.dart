@@ -6,18 +6,18 @@ import 'core/routing/app_router.dart';
 void main() {
   runApp(
     const ProviderScope(
-      child: ChurchEventsApp(),
+      child: WorshippersMeetApp(),
     ),
   );
 }
 
-class ChurchEventsApp extends ConsumerWidget {
-  const ChurchEventsApp({super.key});
+class WorshippersMeetApp extends ConsumerWidget {
+  const WorshippersMeetApp({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp.router(
-      title: 'ChurchEvents',
+      title: 'WorshippersMeet',
       theme: AppTheme.lightTheme,
       routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
